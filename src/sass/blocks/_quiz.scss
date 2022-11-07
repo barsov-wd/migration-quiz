@@ -1,0 +1,125 @@
+.quiz {
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 26px;
+    &__image {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &__title {
+        margin-bottom: 81px;
+    }
+    &__box {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1110px;
+        gap: 20px;
+        margin-bottom: 40px;
+    }
+    &__radio {
+        display: none;
+
+        &:checked+.quiz__label__text {
+            font-family: 'Raleway Regular', sans-serif;
+            font-weight: 400;
+            transition: all .3s;
+            border: none;
+            background: #FF4C41;;
+            color: #fff;
+        }
+    }
+
+    &__input-group {
+        width: 534px;
+        height: 60px;
+    }
+
+    &__label {
+        display: block;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        color: #fff;
+
+        &__text {
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border: 0.5px solid #fff;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            padding: 0 40px;
+
+            span {
+                font-family: 'Raleway Regular', sans-serif;
+                font-weight: 400;
+            }
+        }
+    }
+    &__button-group {
+        margin-bottom: 40px;
+    }
+
+    &__button {
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+        width: 257px;
+        height: 60px;
+        margin-right: 20px;
+
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+    &__input {
+        display: block;
+        font-family: 'Raleway Regular', sans-serif;
+        width: 534px;
+        height: 60px;
+        background-color: #FAFAFA;
+        font-size: 20px;
+        line-height: 20px;
+        border: none;
+        padding: 20px 40px;
+        border-radius: 50px;
+
+        &::placeholder {
+            color: rgba(#251C4D, .6)
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+    &__items {
+        max-width: 980px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    &__item {
+        width: 40%;
+        display: flex;
+        align-items: center;
+    }
+    &__item-circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 2px solid #FF4C41;
+    }
+    &__item-text {
+        font-family: 'Raleway Regular', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        margin-left: 20px;
+        color: #fff;
+    }
+}

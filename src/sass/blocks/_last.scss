@@ -1,0 +1,61 @@
+.last {
+    position: relative;
+    // height: calc(100vh - 85px);
+    &__container {
+        padding-top: 119px;
+        position: relative;
+        height: calc(100vh - 100px);
+    }
+    &__image {
+        position: absolute;
+        right: 180px;
+        bottom: 0;
+        width: 40%;
+        height: 97%;
+    }
+    &__image-mobile {
+        display: none;
+    }
+    &__title {
+        width: 869px;
+        margin-bottom: 25px;
+    }
+    &__form {
+        width: 533px;
+    }
+    &__input {
+        padding: 0 40px;
+        font-size: 20px;
+        line-height: 20px;
+        border: none;
+        outline: none;
+        width: 100%;
+        height: 60px;
+        background: #FAFAFA;
+        border-radius: 50px;
+        margin-bottom: 15px;
+        &::placeholder {
+            font-family: 'Raleway Regular', sans-serif;
+            color: rgba(#251C4D, .6);
+        }
+    }
+    &__form-copy {
+        font-family: 'Raleway Regular', sans-serif;
+        font-size: 18px;
+        line-height: 21px;
+        color: #fff;
+        margin-bottom: 50px;
+    }
+    &__button-back {
+        width: 138px;
+        height: 60px;
+    }
+    &__button {
+        width: 257px;
+        height: 60px;
+        margin-left: 20px;
+    }
+    &__copy-mobile {
+        display: none;
+    }
+}

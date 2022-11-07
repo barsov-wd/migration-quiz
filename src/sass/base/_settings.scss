@@ -1,0 +1,67 @@
+* {
+    font-family: 'Raleway Black', sans-serif;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a {
+    scroll-behavior: smooth;
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-size: inherit;
+}
+
+.main {
+    min-height: 100vh;
+    max-height: 1200px;
+    background: linear-gradient(180deg, #251C4D 11.02%, #5F4CA9 48.46%, #251C4D 94.57%);
+}
+
+.container {
+    width: 1640px;
+    margin: 0 auto;
+}
+
+@keyframes toRight {
+    0% {
+        left: -100%;
+    }
+
+    85% {
+        left: -100%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}

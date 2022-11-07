@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Квиз миграционные услуги</title>
+    
+
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__logo">
+                        Миграционный 
+                        <span class="header__logo header__logo--color">центр</span>
+                    </div>
+                    <div class="header__text">
+                        <div class="header__text-uppercase">
+                            ОТСРОЧКА ВОЕННООБЯЗАННЫМ
+                        </div>
+                        <div class="header__text-descr">
+                            Скорая помощь по миграционным вопросам
+                        </div>
+                    </div>
+                    <button class="header__button" data-modal>Бесплатная консультация</button>
+                    <button class="header__button-mobile" data-modal>
+                        <img src="./img/header/header-icon-mobile.svg" alt="header-icon-mobile">
+                    </button>
+                </div>
+            </div>
+        </header>
+        <!-- ./header -->
+        <section class="promo">
+            <img class="promo__image-before" src="./img/promo/promo-image-before.png" alt="promo-image-before"> 
+            <img class="promo__image-after" src="./img/promo/promo-image-after.png" alt="promo-image-after">
+            <div class="container">
+                <div class="promo__inner">
+                    <div class="promo__content">
+                        <div class="promo__text-uppercase">
+                            ОТСРОЧКА ВОЕННООБЯЗАННЫМ
+                        </div>
+                        <p class="promo__text-descr">
+                            Скорая помощь по миграционным вопросам
+                        </p>
+                        <h2 class="promo__content-title">
+                            Нужно гражданство РФ,
+                            рвп или внж?
+                        </h2>
+                        <div class="promo__block-mobile">
+                            <img class="promo__block-image" src="./img/promo/promo-block-image.png" alt="promo-block-image">
+                        </div>
+                        <div class="promo__content-subtitle">
+                            Ответьте на 5 вопросов и получите
+                            в кратчайшие сроки!
+                        </div>
+                        <button class="button promo__content-button button--effect">Начать опрос</button>
+                    </div>
+                    <div class="promo__block">
+                        <img class="promo__block-image" src="./img/promo/promo-block-image.png" alt="promo-block-image">
+                    </div>
+                </div>
+                <a class="promo__policy-link" href="#">Политика конфиденциальности.</a>
+            </div>
+        </section>
+        <!-- .promo -->
+
+        <section class="quiz" style="display: none;">
+            <img class="quiz__image" src="./img/quiz/quiz-image.png" alt="quiz-image">
+            <div class="container">
+                <h3 class="title quiz__title">Гражданином какой страны вы являетесь?</h3>
+                <div class="quiz__box">
+                    <!-- <div class="quiz__input-group">
+                        <label class="quiz__label">
+                            <input type="radio" name="quiz" class="quiz__radio">
+                            <p class="quiz__label__text"><span>От 300 000 до 500 000 ₽</span></p>
+                        </label>
+                    </div>
+                    
+                    <div class="quiz__input-group">
+                        <label class="quiz__label">
+                            <input type="radio" name="quiz" class="quiz__radio">
+                            <p class="quiz__label__text"><span>От 500 000 ₽ до 1 000 000 ₽</span></p>
+                        </label>
+                    </div>
+                    
+                    <div class="quiz__input-group">
+                        <label class="quiz__label">
+                            <input type="radio" name="quiz" class="quiz__radio">
+                            <p class="quiz__label__text"><span>От 1 000 000 ₽ и выше</span></p>
+                        </label>
+                    </div>
+                    
+                    <div class="quiz__input-group">
+                        <label class="quiz__label">
+                            <input type="radio" name="quiz" class="quiz__radio">
+                            <p class="quiz__label__text"><span>более 1 000 000 рублей</span></p>
+                        </label>
+                    </div>
+
+                    <div class="quiz__input-group">
+                        <label class="quiz__label">
+                            <input type="radio" name="quiz" class="quiz__radio">
+                            <p class="quiz__label__text"><span>более 1 000 000 рублей</span></p>
+                        </label>
+                    </div> -->
+                    <div class="quiz__input-group">
+                        <input class="quiz__input" type="text" placeholder="Ваш город">
+                    </div>
+                </div>
+                <div class="quiz__button-group">
+                    <button class="button button--back quiz__button">Назад</button>
+                    <button class="button quiz__button">Далее</button>
+                </div>
+                <div class="quiz__items">
+                    <div class="quiz__item">
+                        <div class="quiz__item-circle">
+                            <img class="quiz__item-icon" src="./img/quiz/quiz-icon-1.png" alt="quiz-icon-1">
+                        </div>
+                        <p class="quiz__item-text">
+                            15 лет <br>
+                            опыта
+                        </p>
+                    </div>
+                    <div class="quiz__item">
+                        <div class="quiz__item-circle">
+                            <img class="quiz__item-icon" src="./img/quiz/quiz-icon-2.png" alt="quiz-icon-2">
+                        </div>
+                        <p class="quiz__item-text">
+                            Гарантированный <br>
+                            соцпакет
+                        </p>
+                    </div>
+                    <div class="quiz__item">
+                        <div class="quiz__item-circle">
+                            <img class="quiz__item-icon" src="./img/quiz/quiz-icon-3.png" alt="quiz-icon-3">
+                        </div>
+                        <p class="quiz__item-text">
+                            Юридическая <br>
+                            поддержка
+                        </p>
+                    </div>
+                    <div class="quiz__item">
+                        <div class="quiz__item-circle">
+                            <img class="quiz__item-icon" src="./img/quiz/quiz-icon-4.png" alt="quiz-icon-4">
+                        </div>
+                        <p class="quiz__item-text">
+                            Оформили более 30 000 <br>
+                            мигрантов
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./quiz -->
+
+        <section class="last" style="display: none;">
+            <div class="container last__container">
+                <img class="last__image" src="./img/last/last-image.png" alt="last-image">
+                <h3 class="title last__title">
+                    Поздравляем! <br>
+                    Вам доступно упрощенное оформление документов. Оставьте свои контакты
+                    для связи с юристом
+                </h3>
+                <form action="#" class="last__form">
+                    <div class="last__input-group">
+                        <input type="text" class="last__input" placeholder="Введите ваше имя">
+                    </div>
+                    <div class="last__input-group">
+                        <input type="text" class="last__input" placeholder="Введите ваш телефон">
+                    </div>
+                    <p class="last__form-copy">
+                        Нажимая на кнопку, вы даете согласие на обработку
+                        персональных данных
+                    </p>
+                </form>
+                <img src="./img/last/last-image-mobile.png" alt="last-image-mobile" class="last__image-mobile">
+                <div class="last__buttons-group">
+                    <button class="button button--back last__button-back">Назад</button>
+                    <button class="button last__button">Получить</button>
+                </div>
+                <div class="last__copy-mobile">
+                    Нажимая на кнопку, вы даете согласие
+                    на обработку персональных данных
+                </div>
+            </div>
+        </section>
+        <!-- ./last -->
+
+        <section class="thanks" style="display: none;">
+            <div class="thanks__block">
+                <img class="thanks__block-close" src="./img/modal/close.png" alt="close">
+                <h3 class="thanks__block-title">
+                    Заявка
+                    отправлена!
+                </h3>
+                <p class="thanks__block-descr">
+                    Благодарим за обращение!
+                    Наш номер: +7 925 777-55-96
+                    Скоро мы с Вами свяжемся!
+                    ООО "MIGRANT+"
+                </p>
+            </div>
+        </section>
+    </main>
+    <!-- ./main -->
+
+    <div class="modal modal-main">
+        <form action="#" class="modal-main__dialog">
+            <img src="img/modal/close.png" alt="close" class="modal-main__close">
+            <h3 class="modal-main__title">Оформите заявку</h3>
+            <p class="modal-main__subtitle">Для сотрудничества с нами <br> оставьте свои данные.</p>
+            <div class="modal-main__input-group">
+                <input type="text" placeholder="Ваше имя" class="modal-main__input">
+            </div>
+            <div class="modal-main__input-group">
+                <input type="tel" placeholder="Ваш телефон" class="modal-main__input">
+            </div>
+            <button class="modal-main__button">Подать заявку</button>
+        </form>
+    </div>
+    <!-- ./modal modal-main -->
+
+    <script src="js/script.js"></script>
+</body>
+</html>

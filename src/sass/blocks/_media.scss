@@ -1,0 +1,787 @@
+@media (max-width: 1800px) {
+    .quiz {
+        &__image {
+            width: 520px;
+        }
+    }
+}
+@media (max-width: 1669px) {
+    .container {
+        max-width: 1570px;
+        width: 100%;
+    }
+    .quiz {
+        &__image {
+            width: 500px;
+        }
+    }
+    .last {
+        &__image {
+            height: 94%;
+            right: 150px;
+        }
+    }
+}
+
+@media (max-width: 1600px) {
+    .container {
+        max-width: 1470px;
+        width: 100%;
+    }
+    .promo {
+        &__inner {
+            margin-bottom: 120px;
+        }
+        &__block {
+            padding: 25px 11px;
+            width: 800px;
+        }
+        &__block-image {
+            width: 780px;
+        }
+    }
+    .quiz {
+        padding-top: 140px;
+        &__items {
+            max-width: 920px;
+        }
+        &__item {
+            width: 42%;
+        }
+        &__box {
+            max-width: 1010px;
+        }
+        &__input-group {
+            width: 495px;
+        }
+        &__image {
+            width: 480px;
+        }
+        &__button {
+            margin-right: 15px;
+        }
+    }
+    .last {
+        &__image {
+            height: 94%;
+            width: 45%;
+            right: 100px;
+        }
+    }
+}
+
+@media (max-width: 1500px) {
+    .container {
+        max-width: 1370px;
+        width: 100%;
+    }
+    .promo {
+        &__block {
+            width: 735px;
+            height: 525px;
+        }
+        &__block-image {
+            width: 715px;
+        }
+        &__content-title {
+            font-size: 53px;
+            line-height: 62px;
+        }
+    }
+    .quiz {
+        padding-top: 125px;
+        &__input-group {
+            width: 460px;
+        }
+        &__box {
+            max-width: 940px;
+        }
+        &__items {
+            max-width: 895px;
+        }
+        &__image {
+            width: 455px;
+        }
+        &__item {
+            width: 43%;
+        }
+    }
+    .last {
+        &__image {
+            width: 47%;
+            right: 40px;
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1270px;
+        width: 100%;
+    }
+    .header {
+        &__inner {
+            padding-top: 35px;
+        }
+        &__text-uppercase,
+        &__text-descr {
+            font-size: 24px;
+            line-height: 29px;
+        }
+        &__button {
+            width: 385px;
+        }
+    }
+    .promo {
+        &__content-title {
+            font-size: 52px;
+            line-height: 60px;
+        }
+        &__content-subtitle {
+            font-size: 30px;
+            line-height: 36px;
+        }
+        &__block {
+            width: 660px;
+            height: 475px;
+        }
+        &__block-image {
+            width: 635px;
+        }
+    }
+    .quiz {
+        padding-top: 120px;
+        &__title {
+            margin-bottom: 75px;
+        }
+        &__input-group {
+            width: 425px;
+        }
+        &__items {
+            max-width: 720px;
+        }
+        &__item {
+            width: 49%;
+        }
+        &__item-text {
+            font-size: 21px;
+            line-height: 24px;
+        }
+        &__image {
+            width: 425px;
+        }
+    }
+    .last {
+        &__container {
+            padding-top: 110px;
+            padding-bottom: 20px;
+        }
+        &__title {
+            width: 835px;
+        }
+        &__image {
+            width: 50%;
+            right: 10px;
+        }
+    }
+}
+
+@media (max-width: 1300px) {
+    .container {
+        max-width: 1170px;
+        width: 100%;
+    }
+    .header {
+        &__inner {
+            padding-top: 30px;
+        }
+        &__logo {
+            font-size: 30px;
+        }
+        &__text-descr,
+        &__text-uppercase {
+            font-size: 22px;
+            line-height: 27px;
+        }
+        &__button {
+            width: 375px;
+        }
+    }
+    .promo {
+        &__block {
+            width: 625px;
+            height: 450px;
+        }
+        &__block-image {
+            width: 605px;
+        }
+        &__image-before {
+            width: 425px;
+            bottom: -5px;
+        }
+        &__content-title {
+            font-size: 47px;
+            line-height: 56px;
+        }
+        &__content-subtitle {
+            font-size: 28px;
+            line-height: 34px;
+        }
+    }
+    .quiz {
+        padding-top: 100px;
+        &__title {
+            margin-bottom: 70px;
+        }
+        &__input-group {
+            width: 400px;
+        }
+        &__box {
+            gap: 15px;
+        }
+        &__image {
+            width: 375px;
+        }
+    }
+    .title {
+        font-size: 37px;
+        line-height: 44px;
+    }
+    .last {
+        &__container {
+            height: calc(100vh - 87px);
+            padding-top: 100px;
+        }
+        &__title {
+            width: 745px;
+        }
+        &__image {
+            height: 90%;
+            width: 52%;
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+        width: 100%;
+    }
+    .header {
+        &__text {
+            display: none;
+        }
+    }
+    .promo {
+        padding-top: 85px;
+        &__inner {
+            margin-bottom: 110px;
+        }
+        &__content {
+            max-width: 460px;
+            width: 100%;
+        }
+        &__block {
+            width: 480px;
+            height: 360px;
+        }
+        &__block-image {
+            width: 460px;
+        }
+        &__content-title {
+            font-size: 42px;
+            line-height: 52px;
+        }
+        &__content-subtitle {
+            font-size: 26px;
+            line-height: 34px;
+        }
+        &__image-before {
+            width: 390px;
+            bottom: 0;
+        }
+        &__image-after {
+            bottom: 95px;
+        }
+    }
+    .quiz {
+        padding-top: 85px;
+        &__input-group {
+            width: 345px;
+        }
+        &__image {
+            width: 280px;
+        }
+        &__title {
+            margin-bottom: 55px;
+        }
+        &__items {
+            max-width: 675px;
+        }
+        &__item-text {
+            font-size: 20px;
+            line-height: 23px;
+            margin-left: 15px;
+        }
+    }
+    .title {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .last {
+        &__container {
+            height: 100%;
+            padding-top: 85px;
+        }
+        &__title {
+            width: 650px;
+        }
+        &__image {
+            width: 50%;
+            height: 80%;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 750px;
+    }
+    .header {
+        &__button {
+            width: 300px;
+            font-size: 18px;
+            line-height: 18px;
+        }
+    }
+    .promo {
+        padding-top: 51px;
+        &__inner {
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 80px;
+        }
+        &__block {
+            display: none;
+        }
+        &__text-uppercase {
+            display: block;
+            color: #FF4C41;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &__text-descr {
+            display: block;
+            margin-bottom: 35px;
+        }
+        &__block-mobile {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #FF4C41;
+            border-radius: 50px;
+            width: 440px;
+            height: 320px;
+            margin-bottom: 20px;
+        }
+        &__block-image {
+            width: 420px;
+        }
+        &__image-before {
+            width: 300px;
+            bottom: -10px;
+        }
+        &__image-after {
+            width: 300px;
+        }
+    }
+    .quiz {
+        padding-top: 60px;
+        &__image {
+            display: none;
+        }
+        &__title {
+            font-size: 28px;
+            line-height: 34px;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        &__box {
+            max-width: 750px;
+            justify-content: center;
+        }
+        &__input {
+           width: 375px;
+        }
+        &__button-group {
+           text-align: center;
+        }
+        &__items {
+            max-width: 590px;
+            margin: 0 auto;
+        }
+        &__item-circle {
+            width: 63px;
+            height: 63px;
+        }
+        &__item-icon {
+            width: 36px;
+        }
+        &__item-text {
+            font-size: 18px;
+            line-height: 21px;
+        }
+    }
+    .last {
+        &__image {
+            display: none;
+        }
+        &__title {
+            font-size: 28px;
+            line-height: 34px;
+        }
+        &__container {
+            padding-top: 60px;
+            text-align: center;
+        }
+        &__title {
+            margin: 0 auto 25px;
+        }
+        &__form {
+            margin: 0 auto;
+        }
+        &__input {
+            margin-bottom: 20px;
+        }
+        &__form-copy {
+            display: none;
+        }
+        &__image-mobile {
+            display: block;
+            width: 500px;
+            height: 425px;
+            margin: 0 auto;
+            object-fit: contain;
+        }
+        &__buttons-group {
+            margin-bottom: 15px;
+        }
+        &__copy-mobile {
+            font-family: 'Raleway Regular', sans-serif;
+            font-weight: 400;
+            display: block;
+            color: #fff;
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+    .header {
+        &__logo {
+            font-size: 27px;
+        }
+        &__button {
+            display: none;
+        }
+        &__button-mobile {
+            display: block;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+    }
+    .promo {
+        padding-top: 41px;
+        &__inner {
+            margin-bottom: 60px;
+        }
+        &__text-descr {
+            margin-bottom: 20px;
+        }
+        &__content-title {
+            font-size: 34px;
+            line-height: 40px;
+        }
+        &__content-subtitle {
+            font-size: 24px;
+            line-height: 30px;
+            margin-bottom: 25px;
+        }
+        &__image-before {
+            display: none;
+        }
+        &__image-after {
+            bottom: 240px;
+        }
+        &__block-mobile {
+            width: 420px;
+            height: 300px;
+            margin: 0 auto 20px;
+        }
+        &__block-image {
+            width: 400px;
+        }
+    }
+    .quiz {
+        padding-top: 45px;
+        &__title {
+            font-size: 24px;
+            line-height: 29px;
+            margin-bottom: 35px;
+        }
+        &__button {
+            width: 225px;
+        }
+        &__items {
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+    .last {
+        &__container {
+            padding-top: 45px;
+        }
+        &__title {
+            width: 540px;
+            font-size: 24px;
+            line-height: 29px;
+        }
+        &__form {
+            width: 490px;
+        }
+        &__copy-mobile {
+            width: 280px;
+            margin: 0 auto;
+        }
+    }
+    .thanks {
+        padding-top: 63px;
+        &__block {
+            padding-top: 134px;
+            width: 280px;
+            height: 394px;
+            border-radius: 30px;
+        }
+        &__block-close {
+            top: 25px;
+            right: 25px;
+            width: 25px;
+            height: 25px;
+        }
+        &__block-title {
+            font-size: 28px;
+            line-height: 33px;
+            margin: 0 auto 25px; 
+        }
+        &__block-descr {
+            width: 247px;
+            font-size: 18px;
+            line-height: 21px;
+        }
+    }
+    .modal {
+        &-main {
+            &__dialog {
+                width: 280px;
+                padding: 65px 20px 74px 20px;
+            }
+            &__title {
+                font-size: 28px;
+                line-height: 33px;
+                margin-bottom: 20px;
+            }
+            &__subtitle {
+                font-size: 18px;
+                line-height: 21px;
+                margin-bottom: 15px;
+            }
+            &__input {
+                height: 50px;
+            }
+            &__input-group {
+                margin-bottom: 10px;
+                &:last-of-type {
+                    margin-bottom: 13px;
+                }
+            }
+            &__close {
+                width: 25px;
+                height: 25px;
+                top: 25px;
+                right: 25px;
+            }
+            &__button {
+                height: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .main {
+        background: linear-gradient(180deg, #251C4D 11.02%, #5F4CA9 48.46%, #251C4D 94.57%);
+    }
+    .container {
+        max-width: 100%;
+        width: 100%;
+        padding: 0 20px;
+    }
+    .header {
+        &__inner {
+            padding-top: 29px;
+        }
+        &__logo {
+            font-size: 25px;
+            line-height: 29px;
+            &--color {
+                margin-top: 0;
+            }
+        }
+    }
+    .promo {
+        padding-top: 31px;
+        &__inner {
+            margin-bottom: 60px;
+        }
+        &__text-uppercase {
+            font-size: 13px;
+            line-height: 15px;
+        }
+        &__text-descr {
+            font-size: 12px;
+            line-height: 14px;
+            margin-bottom: 20px;
+        }
+        &__content-title {
+            width: 280px;
+            font-size: 28px;
+            line-height: 33px;
+            margin: 0 auto 14px;
+        }
+        &__block-mobile {
+            width: 280px;
+            height: 186px;
+            border-radius: 50px;
+            margin-bottom: 14px;
+        }
+        &__block-image {
+            width: 266px;
+            border-radius: 50px;
+        }
+        &__content-subtitle {
+            font-size: 20px;
+            line-height: 23px;
+            margin-bottom: 21px;
+        }
+        &__image-after {
+            display: none;
+        }
+        &__content-button {
+            width: 280px;
+            height: 50px;
+            font-size: 20px;
+            line-height: 20px;
+        }
+        &__policy-link {
+            font-size: 13px;
+            line-height: 15px;
+        }
+    }
+    .quiz {
+        padding-top: 30px;
+        &__title {
+            font-size: 22px;
+            line-height: 26px;
+            margin-bottom: 25px;
+        }
+        &__input-group {
+            width: 280px;
+            height: 50px;
+        }
+        &__label__text {
+            padding: 0 20px;
+        }
+        &__button-group {
+            display: flex;
+            justify-content: center;
+        }
+        &__button {
+            font-size: 18px;
+            line-height: 21px;
+            width: 135px;
+            height: 50px;
+            margin-right: 10px;
+        }
+        &__input {
+            font-size: 16px;
+            line-height: 19px;
+            padding: 15px 20px;
+            width: 280px;
+            height: 50px;
+        }
+        &__items {
+            display: block;
+            max-width: 290px;
+        }
+        &__item {
+            width: 290px;
+            margin: 0 auto 25px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        &__item-text {
+            font-size: 17px;
+        }
+    }
+    .last {
+        &__container {
+            padding: 15px 20px 52px 20px;
+        }
+        &__title {
+            font-size: 22px;
+            line-height: 26px;
+            width: 280px;
+            margin-bottom: 35px;
+        }
+        &__form {
+            width: 280px;
+        }
+        &__input {
+            padding: 0 20px;
+            font-size: 16px;
+            line-height: 19px;
+            margin-bottom: 15px;
+            height: 50px;
+        }
+        &__image-mobile {
+            width: 280px;
+            height: 332px;
+        }
+        &__buttons-group {
+            display: flex;
+            width: 280px;
+            margin: 0 auto 15px;
+        }
+        &__button-back,
+        &__button {
+            font-size: 18px;
+            line-height: 21px;
+            width: 134px;
+            height: 50px;
+        }
+        &__button {
+            margin-left: 10px;
+        }
+        &__copy-mobile {
+            font-size: 13px;
+            line-height: 15px;
+        }
+    }
+}
